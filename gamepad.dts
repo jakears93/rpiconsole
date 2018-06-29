@@ -1,0 +1,112 @@
+    /dts-v1/;
+    /plugin/;
+    / {
+       compatible = "brcm,bcm2835", "brcm,bcm2708", "brcm,bcm2709";
+       
+       fragment@0 {
+          target-path = "/";
+          __overlay__ {
+             keypad: breadboard_keys {
+                compatible = "gpio-keys";
+                #address-cells = <1>;
+                #size-cells = <0>;
+		autorepeat;
+                button@0 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 0 1>;
+                };
+                button@1 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 1 1>;
+                };
+                button@2 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 2 1>;
+                };
+                button@3 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 3 1>;
+                };	
+                button@4 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 4 1>;
+                };
+                button@5 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 5 1>;
+                };
+                button@6 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 6 1>;
+                };
+                button@7 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 7 1>;
+                };
+                button@8 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 8 1>;
+                };
+                button@9 {{
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 9 1>;
+                };
+                button@10 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 10 1>;
+                };
+                button@1 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 1 1>;
+                };
+                button@11 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 11 1>;
+                };
+                button@12 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 12 1>;
+                };
+                button@13 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 13 1>;
+                };
+                button@14 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 14 1>;
+                };
+                button@15 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 15 1>;
+                };
+                button@16 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 16 1>;
+                };
+                button@17 {
+                   label = "GAMEPAD";
+                   linux,code = <>;
+                   gpios = <&gpio 17 1>;
+                };
+             };
+          };
+       };
+    };
