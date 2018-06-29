@@ -11,92 +11,92 @@
                 #address-cells = <1>;
                 #size-cells = <0>;
 		autorepeat;
-                button@0 {
+                up {
                    label = "GAMEPAD_UP";
                    linux,code = <103>;
                    gpios = <&gpio 0 1>;
                 };
-                button@1 {
+                x {
                    label = "GAMEPAD_X";
                    linux,code = <45>;
                    gpios = <&gpio 1 1>;
-                };
-                button@2 {
+                 };
+                4 {
                    label = "GAMEPAD_F4";
                    linux,code = <5>;
                    gpios = <&gpio 2 1>;
                 };
-                button@3 {
+                3 {
                    label = "GAMEPAD_F3";
                    linux,code = <4>;
                    gpios = <&gpio 3 1>;
                 };	
-                button@4 {
+                2 {
                    label = "GAMEPAD_F2";
                    linux,code = <3>;
                    gpios = <&gpio 4 1>;
                 };
-                button@5 {
+                down {
                    label = "GAMEPAD_DOWN";
                    linux,code = <108>;
                    gpios = <&gpio 5 1>;
                 };
-                button@6 {
+                right {
                    label = "GAMEPAD_RIGHT";
                    linux,code = <106>;
                    gpios = <&gpio 6 1>;
                 };
-                button@7 {
+                b {
                    label = "GAMEPAD_B";
                    linux,code = <48>;
                    gpios = <&gpio 7 1>;
                 };
-                button@8 {
+                a {
                    label = "GAMEPAD_A";
                    linux,code = <30>;
                    gpios = <&gpio 8 1>;
                 };
-                button@9 {
+                left {
                    label = "GAMEPAD_LEFT";
                    linux,code = <105>;
                    gpios = <&gpio 9 1>;
                 };
-                button@10 {
+                q {
                    label = "GAMEPAD L_SHOULDER";
                    linux,code = <16>;
                    gpios = <&gpio 10 1>;
                 };
-                button@11 {
+                backspace {
                    label = "GAMEPAD_SELECT";
                    linux,code = <14>;
                    gpios = <&gpio 11 1>;
                 };
-                button@12 {
+                y {
                    label = "GAMEPAD_Y";
                    linux,code = <21>;
                    gpios = <&gpio 12 1>;
                 };
-                button@13 {
+                w {
                    label = "GAMEPAD R_SHOULDER";
                    linux,code = <17>;
                    gpios = <&gpio 13 1>;
                 };
-                button@14 {
+                6 {
                    label = "GAMEPAD_F6";
                    linux,code = <7>;
                    gpios = <&gpio 14 1>;
                 };
-                button@15 {
+                5 {
                    label = "GAMEPAD_F5";
                    linux,code = <6>;
                    gpios = <&gpio 15 1>;
                 };
-                button@16 {
+                enter {
                    label = "GAMEPAD_ENTER";
                    linux,code = <28>;
                    gpios = <&gpio 16 1>;
                 };
-                button@17 {
+                1 {
                    label = "GAMEPAD_F1";
                    linux,code = <2>;
                    gpios = <&gpio 17 1>;
